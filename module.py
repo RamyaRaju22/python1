@@ -4,9 +4,7 @@ def func1(a,b,c):
 			return a
 		else:
 			return c
-	if b>c:
+	elif b>c:
 		return b
 	else:
 		return c
-r=func1(2,3,5)
-print(r)
